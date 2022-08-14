@@ -1,7 +1,6 @@
 鲁虺photomosh中文版
 # photomosh.luhui.net
-图像和视频故障的无限创意控制。
-
+鲁虺图像和视频故障的无限创意控制PhotoMosh–赛博朋克故障特效视频在线制作网
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1b1f0a3-1977-443d-b9f8-7ce832e51295/deploy-status)](https://app.netlify.com/sites/photomosh/deploys)
 
