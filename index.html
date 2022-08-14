@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PhotoMosh</title>
+	
+    <meta name="description" content="Unlimited creative control for image and video glitching. Distort images, videos or webcam using creative effects. Free and easy to use. Save output as image, gif or video." />
+	  
+    <meta name="author" content="Airtight Interactive" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link href="./css/css.css#https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <meta property="og:title" content="PhotoMosh" />
+    <meta property="og:url" content="https://photomosh.com/" />
+    <meta
+      property="og:description"
+      content="Unlimited creative control for image and video glitching. Distort images, videos or webcam using creative effects. Free and easy to use. Save output as image, gif or video."
+    />
+    <meta property="og:image" content="https://photomosh.com/res/img/share-web.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="drop-target-holder">
+      <div id="drop-target" class="option dashed v-centered h-centered">Drop File Here</div>
+    </div>
+
+    <div id="viz">
+      <div id="save-options">
+        <div id="opt-jpg" class="save-opt-inner selected">JPG</div>
+        <div id="opt-gif" class="save-opt-inner">GIF</div>
+        <div id="opt-webm" class="save-opt-inner">WEBM</div>
+      </div>
+
+      <div id="fx-btn" class="clickable icon-btn">FX</div>
+
+      <div id="webgl">
+        <div id="progress-bar"></div>
+        <div id="progress-bar-bkgnd"></div>
+      </div>
+
+      <div id="bottom-controls-holder">
+        <div class="main-btn clickable icon-btn" id="btn-mosh">Mosh</div>
+        <div class="main-btn clickable icon-btn" id="btn-record">Save</div>
+      </div>
+    </div>
+
+    <div id="intro">
+      <div id="intro-inner">
+        <div id="intro-logo" class="logo h-centered"></div>
+        <div id="sub-head" class="big">Unlimited creative control for image and video glitching.</div>
+        <div id="options-holder">
+          <div id="input-options" class="v-centered">
+            <div class="intro-btn clickable icon-btn" id="option-file">Load File</div>
+            <div class="middle-sep"></div>
+            <div class="intro-btn clickable icon-btn" id="option-cam">Use WebCam</div>
+          </div>
+
+          <div id="cam-prompt" class="v-centered big">Please allow WebCam access.</div>
+
+          <div id="file-prompt" class="v-centered">
+            <div class="intro-btn clickable" id="option-choose">Choose File...</div>
+            <div class="middle-sep">OR</div>
+            <div class="intro-btn dashed">Drop File Here</div>
+            <input type="file" id="file-input" style="display: none" />
+          </div>
+        </div>
+
+        <p class="big">Upgrade to <a href="./pro/">PhotoMosh-Pro</a>!</p>
+
+        <div class="hello">
+          <a href="https://www.instagram.com/explore/tags/photomosh/" target="_blank"
+            ><span id="insta" class="social-icon"></span
+          ></a>
+          <a href="https://twitter.com/photomosh" target="_blank"><span id="twitter" class="social-icon"></span></a>
+          <a href="mailto:hello@photomosh.com"><span id="mail" class="social-icon"></span></a>
+        </div>
+        <p class="footer">
+          © <a href="http://airtight.cc">Airtight</a>&nbsp;|&nbsp;
+          <a href="./help/" target="_blank">HELP (?)</a>
+        </p>
+      </div>
+    </div>
+
+    <div id="controls-holder">
+      <div id="controls-header">
+        <div id="fx-close" class="icon-btn"></div>
+        <div class="pro-upgrade">Upgrade to <a href="./pro/">PhotoMosh-Pro!</a></div>
+      </div>
+
+      <div id="controls">
+        <div id="settings"></div>
+      </div>
+      <div id="help-link"><a href="./help/" target="_blank">HELP (?)</a></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
