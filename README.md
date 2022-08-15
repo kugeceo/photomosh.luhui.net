@@ -1,4 +1,4 @@
-鲁虺photomosh中文版
+## Unlimited creative control for image and video glitching.鲁虺photomosh中文版
 # photomosh.luhui.net
 鲁虺图像和视频故障的无限创意控制PhotoMosh–赛博朋克故障特效视频在线制作网
 
